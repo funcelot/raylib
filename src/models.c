@@ -17,7 +17,7 @@
 *
 *   LICENSE: zlib/libpng
 *
-*   Copyright (c) 2013-2020 Ramon Santamaria (@raysan5)
+*   Copyright (c) 2013-2021 Ramon Santamaria (@raysan5)
 *
 *   This software is provided "as-is", without any express or implied warranty. In no event
 *   will the authors be held liable for any damages arising from the use of this software.
@@ -948,7 +948,10 @@ Material *LoadMaterials(const char *fileName, int *materialCount)
 #endif
 
     // Set materials shader to default (DIFFUSE, SPECULAR, NORMAL)
-    for (unsigned int i = 0; i < count; i++) materials[i].shader = GetShaderDefault();
+    if (materials != NULL)
+    {
+        for (unsigned int i = 0; i < count; i++) materials[i].shader = GetShaderDefault();
+    }
 
     *materialCount = count;
     return materials;
@@ -1483,7 +1486,6 @@ Mesh GenMeshPlane(float width, float length, int resX, int resZ)
     mesh.vertices = (float *)RL_MALLOC(plane->ntriangles*3*3*sizeof(float));
     mesh.texcoords = (float *)RL_MALLOC(plane->ntriangles*3*2*sizeof(float));
     mesh.normals = (float *)RL_MALLOC(plane->ntriangles*3*3*sizeof(float));
-    mesh.vboId = (unsigned int *)RL_CALLOC(DEFAULT_MESH_VERTEX_BUFFERS, sizeof(unsigned int));
 
     mesh.vertexCount = plane->ntriangles*3;
     mesh.triangleCount = plane->ntriangles;

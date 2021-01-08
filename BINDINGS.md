@@ -8,7 +8,7 @@ Here it is a list with the ones I'm aware of:
 |:------------------:|:-------------: | :--------:|----------------------------------------------------------------------|
 | raylib             | **3.1-dev** | [C](https://en.wikipedia.org/wiki/C_(programming_language))    | https://github.com/raysan5/raylib    |
 | raylib-cpp         | 3.5 | [C++](https://en.wikipedia.org/wiki/C%2B%2B)                             | https://github.com/robloach/raylib-cpp      |
-| Raylib-cs          | 3.0 | [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))       | https://github.com/ChrisDill/Raylib-cs      |
+| Raylib-cs          | 3.5 | [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))       | https://github.com/ChrisDill/Raylib-cs      |
 | raylib-cppsharp    | 2.5 | [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))       | https://github.com/phxvyper/raylib-cppsharp |
 | raylib-boo         | 3.5 | [Boo](http://boo-language.github.io/) | https://github.com/Rabios/raylib-boo          |
 | RaylibFS           | 2.5 | [F#](https://fsharp.org/)             | https://github.com/dallinbeutler/RaylibFS     |
@@ -59,8 +59,8 @@ Here it is a list with the ones I'm aware of:
 | raylib-php         | 3.0 | [PHP](https://en.wikipedia.org/wiki/PHP)      | https://github.com/joseph-montanez/raylib-php   |
 | raylib-php-ffi     | 2.4-dev | [PHP](https://en.wikipedia.org/wiki/PHP)      | https://github.com/oraoto/raylib-php-ffi      |
 | raylib-phpcpp      | 3.0 | [PHP](https://en.wikipedia.org/wiki/PHP)      | https://github.com/oraoto/raylib-phpcpp      |
-| raylib-factor      | 2.5 | [Factor](https://factorcode.org/)        | https://github.com/ArnautDaniel/raylib-factor   |
-| gforth-raylib      | 3.0 | [Gforth](https://gforth.org/)            | https://github.com/ArnautDaniel/gforth-raylib   |
+| raylib-factor      | 3.5 | [Factor](https://factorcode.org/)        | https://github.com/ArnautDaniel/raylib-factor   |
+| gforth-raylib      | 3.5 | [Gforth](https://gforth.org/)            | https://github.com/ArnautDaniel/gforth-raylib   |
 | raylib-haxe        | 2.4 | [Haxe](https://haxe.org/)                | https://github.com/ibilon/raylib-haxe           |
 | ringraylib         | 2.6 | [Ring](http://ring-lang.sourceforge.net/)  | https://github.com/ringpackages/ringraylib     |
 | cl-raylib          | 3.0 | [Common Lisp](https://common-lisp.net/)    | https://github.com/longlene/cl-raylib    |
